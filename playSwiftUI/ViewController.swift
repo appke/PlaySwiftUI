@@ -31,30 +31,57 @@ struct ContentViewV : View {
     }
 }
 
+// 跨容器对齐，自定义Alignment
+// 系统自带的Aligment，跨容器无效
+struct CustomHorizontalAlignment: AlignmentID {
+    // 默认偏移量，默认左对齐，偏移量为 0
+    static func defaultValue(in context: ViewDimensions) -> CGFloat {
+        context[.leading]
+    }
+}
+
+extension HorizontalAlignment {
+    // 自定义水平对齐类型，创建 HorizontalAlignment
+    static let customLeading = HorizontalAlignment(CustomHorizontalAlignment.self)
+}
+
 // 2.Text对齐
 struct ContentViewH : View {
     var body: some View {
-        VStack {
-            HStack(spacing: 100) {
-                Text("Username").font(Font.system(size: 35, weight: .bold)).border(Color.red)
-                Text("Jackay").font(Font.system(size: 25))
-            }
-
-            
+        VStack(alignment: .customLeading) { // 基准线
             HStack {
-                Text("Email").font(Font.system(size: 35, weight: .bold))
-                Text("Jackay@gmail.com").font(Font.system(size: 25)).border(Color.red)
+                Text("Username").titleStyle()
+                Text("Jackay").contentStyle()
             }
             
             HStack {
-                Text("Phone").font(Font.system(size: 35, weight: .bold))
-                Text("400-2828-897").font(Font.system(size: 25))
+                Text("Email").titleStyle()
+                Text("Jackay@gmail.com").contentStyle()
+            }
+            
+            HStack {
+                Text("Phone").titleStyle()
+                Text("400-2828-897").contentStyle()
             }
         }
         .padding()
     }
 }
 
+// 设置扩展函数，设置文字样式
+extension Text {
+    func titleStyle() -> Self {
+        self.font(.system(size: 35, weight: .bold))
+    }
+    
+    // 右侧文字左对齐，和最外层VStack 共享同一条基准线
+    func contentStyle() -> some View {
+        self.font(.system(size: 25))
+        .border(Color.red)
+        .alignmentGuide(.customLeading, computeValue: { $0[.leading] })
+    }
+    
+}
 
 // SF字体
 struct SF_ContentView : View {
@@ -102,7 +129,7 @@ struct ShadowView : View {
             .font(.system(size: 35))
             .padding()
             .background(Color.white)
-            .clipped() //带阴影的矩形
+            .clipped() //带阴影的矩形，放在设置背景后面
             .shadow(color: .red, radius: 10)
             
 //            .background(
@@ -153,7 +180,7 @@ struct ViewController_Previews: PreviewProvider {
         //Text("Hello, World!333").font(Font.system(size: 35))
 //        ContentViewV()
 //        SF_ContentView()
-//        ContentViewH()
-        ShadowView()
+        ContentViewH()
+//        ShadowView()
     }
 }
