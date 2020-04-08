@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B424BC0243DA45100E1AFB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B424BBF243DA45100E1AFB9 /* ContentView.swift */; };
 		3B94922B23697D3900C14293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922A23697D3900C14293 /* AppDelegate.swift */; };
 		3B94922D23697D3900C14293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922C23697D3900C14293 /* SceneDelegate.swift */; };
 		3B94922F23697D3900C14293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922E23697D3900C14293 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B424BBF243DA45100E1AFB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B94922723697D3900C14293 /* playSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B94922A23697D3900C14293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B94922C23697D3900C14293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				3B94922E23697D3900C14293 /* ViewController.swift */,
 				3B9F2D0B242DFD9400CFBE4A /* CircleImage.swift */,
 				3B9F2D0D242DFFAA00CFBE4A /* MapView.swift */,
+				3B424BBF243DA45100E1AFB9 /* ContentView.swift */,
 				3B94923023697D3900C14293 /* Main.storyboard */,
 				3B94923323697D3A00C14293 /* Assets.xcassets */,
 				3B94923523697D3A00C14293 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			files = (
 				3B94922F23697D3900C14293 /* ViewController.swift in Sources */,
 				3B9F2D0C242DFD9400CFBE4A /* CircleImage.swift in Sources */,
+				3B424BC0243DA45100E1AFB9 /* ContentView.swift in Sources */,
 				3B9F2D0E242DFFAA00CFBE4A /* MapView.swift in Sources */,
 				3B94922B23697D3900C14293 /* AppDelegate.swift in Sources */,
 				3B94922D23697D3900C14293 /* SceneDelegate.swift in Sources */,
