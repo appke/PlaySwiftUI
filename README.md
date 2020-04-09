@@ -36,7 +36,7 @@
 - 《SwiftUI 和 Combine 编程》 - 王巍
 - 《SwiftUI Views Quick Start》 - Mark Moeykens
 
-![img](SwiftUI Views Quick Start.png)
+![](SwiftUI-Views-Quick-Start.png)
 
 Big Mountain Studio 的 SwiftUI 系列中的第一本，全书黑金配色十分炫酷。书里列举了很多常见需求的最佳写法，代码十分优雅，以后遇到类似的场景直接粘贴就好了。
 
