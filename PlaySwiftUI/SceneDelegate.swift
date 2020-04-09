@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  playSwiftUI
+//  PlaySwiftUI
 //
 //  Created by MGBook on 2019/10/30.
 //  Copyright © 2019 MGBook. All rights reserved.

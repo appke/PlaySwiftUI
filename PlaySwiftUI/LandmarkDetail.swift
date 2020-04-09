@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  playSwiftUI
+//  PlaySwiftUI
 //
 //  Created by MGBook on 2020/4/8.
 //  Copyright © 2020 MGBook. All rights reserved.
@@ -9,7 +9,7 @@
 import SwiftUI
 
 
-struct ContentView: View {
+struct LandmarkDetail: View {
     var body: some View {
         VStack {
             MapView()
@@ -40,8 +40,8 @@ struct ContentView: View {
 }
 
 
-struct ContentView_Previews: PreviewProvider {
+struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LandmarkDetail()
     }
 }

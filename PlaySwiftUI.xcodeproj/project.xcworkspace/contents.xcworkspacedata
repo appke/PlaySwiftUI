@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:playSwiftUI.xcodeproj">
+      location = "self:/Users/mgbook/Dropbox/5-Swift&#x5f00;&#x53d1;/PlaySwiftUI/PlaySwiftUI.xcodeproj">
    </FileRef>
 </Workspace>
