@@ -10,8 +10,8 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [[译\] SwiftUI 官方教程 （一） - 简书](https://www.jianshu.com/p/efc36dd785d6) | 1. 声明式语法                                                |
 | [[译\] SwiftUI 官方教程 （二） - 简书](https://www.jianshu.com/p/2297725a051e) | 1. Text布局<br>2. Image圆形、边框、阴影<br>3. 自定义MapView<br>4. 组成一个页面 |
-| [[译\] SwiftUI 官方教程 （三） - 简书](https://www.jianshu.com/p/ecf30901031d) | 1.将数据显示在View上<br>                                     |
-|                                                              |                                                              |
+| [[译\] SwiftUI 官方教程 （三） - 简书](https://www.jianshu.com/p/ecf30901031d) | 1. 将数据显示在View上<br>2. 加载JSON文件<br>3. 列表List、导航View设置<br>4. preview provider预览设置 |
+| [[译\] SwiftUI 官方教程 （四） - 简书](https://www.jianshu.com/p/5a9d1a539829) |                                                              |
 |                                                              |                                                              |
 |                                                              |                                                              |
 

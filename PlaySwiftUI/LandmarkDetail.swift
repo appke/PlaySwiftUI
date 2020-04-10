@@ -38,6 +38,7 @@ struct LandmarkDetail: View {
             
             Spacer() //地图顶上去
         }
+        .navigationBarTitle(Text(landmark.name), displayMode: .inline)
     }
 }
 
