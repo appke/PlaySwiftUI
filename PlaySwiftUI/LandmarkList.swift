@@ -32,10 +32,12 @@ struct LandmarkList_Previews: PreviewProvider {
 //        LandmarkList()
 //        .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
         
-        ForEach(["iPhone SE", "iPhone 11 Pro Max"], id: \.self) { deviceName in
-            LandmarkList()
-                .previewDevice(PreviewDevice(rawValue: deviceName))
-                .previewDisplayName(deviceName)
-        }
+//        ForEach(["iPhone SE", "iPhone 11 Pro Max"], id: \.self) { deviceName in
+//            LandmarkList()
+//                .previewDevice(PreviewDevice(rawValue: deviceName))
+//                .previewDisplayName(deviceName)
+//        }
+
+        LandmarkList()
     }
 }

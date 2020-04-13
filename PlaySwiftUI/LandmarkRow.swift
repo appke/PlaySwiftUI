@@ -11,10 +11,12 @@ import SwiftUI
 /**
  {
      "name": "Turtle Rock",
-     "category": "Featured",
+     "category": "Rivers",
      "city": "Twentynine Palms",
      "state": "California",
      "id": 1001,
+     "isFeatured": true,
+     "isFavorite": true,
      "park": "Joshua Tree National Park",
      "coordinates": {
          "longitude": -116.166868,
@@ -33,6 +35,13 @@ struct LandmarkRow: View {
                 .frame(width: 50, height: 50)
             Text(landmark.name)
             Spacer()
+            
+            // 是否被收藏
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .imageScale(.medium)
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
@@ -40,8 +49,8 @@ struct LandmarkRow: View {
 struct LandmarkRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
+            LandmarkRow(landmark: landmarkData[0])
             LandmarkRow(landmark: landmarkData[1])
-            LandmarkRow(landmark: landmarkData[3])
         }
         .previewLayout(.fixed(width: 300, height: 70))
         
