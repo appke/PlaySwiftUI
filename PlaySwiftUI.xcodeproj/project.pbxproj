@@ -27,6 +27,12 @@
 		3B52E44E24443C6300366CE9 /* hiddenlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B52E44124443C6300366CE9 /* hiddenlake.jpg */; };
 		3B52E44F24443C6300366CE9 /* twinlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B52E44224443C6300366CE9 /* twinlake.jpg */; };
 		3B52E4512444458800366CE9 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E4502444458800366CE9 /* UserData.swift */; };
+		3B52E47D24445B6A00366CE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E47C24445B6A00366CE9 /* AppDelegate.swift */; };
+		3B52E47F24445B6A00366CE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E47E24445B6A00366CE9 /* SceneDelegate.swift */; };
+		3B52E48124445B6A00366CE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E48024445B6A00366CE9 /* ContentView.swift */; };
+		3B52E48324445B7500366CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B52E48224445B7500366CE9 /* Assets.xcassets */; };
+		3B52E48624445B7500366CE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B52E48524445B7500366CE9 /* Preview Assets.xcassets */; };
+		3B52E48924445B7500366CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B52E48724445B7500366CE9 /* LaunchScreen.storyboard */; };
 		3B94922B23697D3900C14293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922A23697D3900C14293 /* AppDelegate.swift */; };
 		3B94922D23697D3900C14293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922C23697D3900C14293 /* SceneDelegate.swift */; };
 		3B94922F23697D3900C14293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922E23697D3900C14293 /* ViewController.swift */; };
@@ -57,7 +63,15 @@
 		3B52E44124443C6300366CE9 /* hiddenlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiddenlake.jpg; sourceTree = "<group>"; };
 		3B52E44224443C6300366CE9 /* twinlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twinlake.jpg; sourceTree = "<group>"; };
 		3B52E4502444458800366CE9 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		3B94922723697D3900C14293 /* PlaySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B52E47A24445B6A00366CE9 /* DrawAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B52E47C24445B6A00366CE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B52E47E24445B6A00366CE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B52E48024445B6A00366CE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B52E48224445B7500366CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B52E48524445B7500366CE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B52E48824445B7500366CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B52E48A24445B7500366CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B94922723697D3900C14293 /* Essentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Essentials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B94922A23697D3900C14293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B94922C23697D3900C14293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3B94922E23697D3900C14293 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +83,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3B52E47724445B6A00366CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3B94922423697D3900C14293 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,10 +139,33 @@
 			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
+		3B52E47B24445B6A00366CE9 /* DrawAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				3B52E47C24445B6A00366CE9 /* AppDelegate.swift */,
+				3B52E47E24445B6A00366CE9 /* SceneDelegate.swift */,
+				3B52E48024445B6A00366CE9 /* ContentView.swift */,
+				3B52E48224445B7500366CE9 /* Assets.xcassets */,
+				3B52E48724445B7500366CE9 /* LaunchScreen.storyboard */,
+				3B52E48A24445B7500366CE9 /* Info.plist */,
+				3B52E48424445B7500366CE9 /* Preview Content */,
+			);
+			path = DrawAnimation;
+			sourceTree = "<group>";
+		};
+		3B52E48424445B7500366CE9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B52E48524445B7500366CE9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		3B94921E23697D3900C14293 = {
 			isa = PBXGroup;
 			children = (
-				3B94922923697D3900C14293 /* PlaySwiftUI */,
+				3B94922923697D3900C14293 /* Essentials */,
+				3B52E47B24445B6A00366CE9 /* DrawAnimation */,
 				3B94922823697D3900C14293 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,12 +173,13 @@
 		3B94922823697D3900C14293 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B94922723697D3900C14293 /* PlaySwiftUI.app */,
+				3B94922723697D3900C14293 /* Essentials.app */,
+				3B52E47A24445B6A00366CE9 /* DrawAnimation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B94922923697D3900C14293 /* PlaySwiftUI */ = {
+		3B94922923697D3900C14293 /* Essentials */ = {
 			isa = PBXGroup;
 			children = (
 				3B424BC9243F3EB300E1AFB9 /* Models */,
@@ -151,15 +196,32 @@
 				3B94923523697D3A00C14293 /* LaunchScreen.storyboard */,
 				3B94923823697D3A00C14293 /* Info.plist */,
 			);
-			path = PlaySwiftUI;
+			path = Essentials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B94922623697D3900C14293 /* PlaySwiftUI */ = {
+		3B52E47924445B6A00366CE9 /* DrawAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B94923B23697D3A00C14293 /* Build configuration list for PBXNativeTarget "PlaySwiftUI" */;
+			buildConfigurationList = 3B52E48B24445B7500366CE9 /* Build configuration list for PBXNativeTarget "DrawAnimation" */;
+			buildPhases = (
+				3B52E47624445B6A00366CE9 /* Sources */,
+				3B52E47724445B6A00366CE9 /* Frameworks */,
+				3B52E47824445B6A00366CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawAnimation;
+			productName = DrawAnimation2;
+			productReference = 3B52E47A24445B6A00366CE9 /* DrawAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B94922623697D3900C14293 /* Essentials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B94923B23697D3A00C14293 /* Build configuration list for PBXNativeTarget "Essentials" */;
 			buildPhases = (
 				3B94922323697D3900C14293 /* Sources */,
 				3B94922423697D3900C14293 /* Frameworks */,
@@ -169,9 +231,9 @@
 			);
 			dependencies = (
 			);
-			name = PlaySwiftUI;
+			name = Essentials;
 			productName = playSwiftUI;
-			productReference = 3B94922723697D3900C14293 /* PlaySwiftUI.app */;
+			productReference = 3B94922723697D3900C14293 /* Essentials.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -180,10 +242,13 @@
 		3B94921F23697D3900C14293 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = MGBook;
 				TargetAttributes = {
+					3B52E47924445B6A00366CE9 = {
+						CreatedOnToolsVersion = 11.4;
+					};
 					3B94922623697D3900C14293 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -202,12 +267,23 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B94922623697D3900C14293 /* PlaySwiftUI */,
+				3B94922623697D3900C14293 /* Essentials */,
+				3B52E47924445B6A00366CE9 /* DrawAnimation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3B52E47824445B6A00366CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B52E48924445B7500366CE9 /* LaunchScreen.storyboard in Resources */,
+				3B52E48624445B7500366CE9 /* Preview Assets.xcassets in Resources */,
+				3B52E48324445B7500366CE9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3B94922523697D3900C14293 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +310,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3B52E47624445B6A00366CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B52E47D24445B6A00366CE9 /* AppDelegate.swift in Sources */,
+				3B52E47F24445B6A00366CE9 /* SceneDelegate.swift in Sources */,
+				3B52E48124445B6A00366CE9 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3B94922323697D3900C14293 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +341,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		3B52E48724445B7500366CE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B52E48824445B7500366CE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		3B94923523697D3A00C14293 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -266,6 +360,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3B52E48C24445B7500366CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DrawAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = YEH9VENLMS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DrawAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mg.DrawAnimation;
+				PRODUCT_NAME = DrawAnimation;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B52E48D24445B7500366CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DrawAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = YEH9VENLMS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DrawAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mg.DrawAnimation;
+				PRODUCT_NAME = DrawAnimation;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		3B94923923697D3A00C14293 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -386,13 +522,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YEH9VENLMS;
-				INFOPLIST_FILE = PlaySwiftUI/Info.plist;
+				INFOPLIST_FILE = Essentials/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mg.PlaySwiftUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mg.Essentials;
+				PRODUCT_NAME = Essentials;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -404,13 +540,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YEH9VENLMS;
-				INFOPLIST_FILE = PlaySwiftUI/Info.plist;
+				INFOPLIST_FILE = Essentials/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mg.PlaySwiftUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mg.Essentials;
+				PRODUCT_NAME = Essentials;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -419,6 +555,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3B52E48B24445B7500366CE9 /* Build configuration list for PBXNativeTarget "DrawAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B52E48C24445B7500366CE9 /* Debug */,
+				3B52E48D24445B7500366CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3B94922223697D3900C14293 /* Build configuration list for PBXProject "PlaySwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -428,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B94923B23697D3A00C14293 /* Build configuration list for PBXNativeTarget "PlaySwiftUI" */ = {
+		3B94923B23697D3A00C14293 /* Build configuration list for PBXNativeTarget "Essentials" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B94923C23697D3A00C14293 /* Debug */,

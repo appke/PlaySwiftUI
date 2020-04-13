@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3B94922623697D3900C14293"
-               BuildableName = "PlaySwiftUI.app"
-               BlueprintName = "PlaySwiftUI"
+               BuildableName = "Essentials.app"
+               BlueprintName = "Essentials"
                ReferencedContainer = "container:PlaySwiftUI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B94922623697D3900C14293"
-            BuildableName = "PlaySwiftUI.app"
-            BlueprintName = "PlaySwiftUI"
+            BuildableName = "Essentials.app"
+            BlueprintName = "Essentials"
             ReferencedContainer = "container:PlaySwiftUI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B94922623697D3900C14293"
-            BuildableName = "PlaySwiftUI.app"
-            BlueprintName = "PlaySwiftUI"
+            BuildableName = "Essentials.app"
+            BlueprintName = "Essentials"
             ReferencedContainer = "container:PlaySwiftUI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
