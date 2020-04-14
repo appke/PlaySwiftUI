@@ -12,11 +12,11 @@
 | [[译\] SwiftUI 官方教程 （二） - 简书](https://www.jianshu.com/p/2297725a051e) | 1. Text布局<br>2. Image圆形、边框、阴影<br>3. 自定义MapView<br>4. 组成一个页面 |
 | [[译\] SwiftUI 官方教程 （三） - 简书](https://www.jianshu.com/p/ecf30901031d) | 1. 将数据显示在View上<br>2. 加载JSON文件<br>3. 列表List、导航View设置<br>4. preview provider预览设置 |
 | [[译\] SwiftUI 官方教程 （四） - 简书](https://www.jianshu.com/p/5a9d1a539829) | 1. 收藏喜欢的内容<br>2. 数据监听器<br>3. 点击收藏、点击操作实时预览 |
-| [[译\] SwiftUI 官方教程 （五） - 简书](https://www.jianshu.com/p/6b5f8ea2619e) | 1. SwiftUI强大绘画框架                                       |
+| [[译\] SwiftUI 官方教程 （五） - 简书](https://www.jianshu.com/p/6b5f8ea2619e) | 1. 了解SwiftUI强大绘画框架                                   |
 | [[译\] SwiftUI 官方教程 （六） - 简书](https://www.jianshu.com/p/769b52b051cc) | 1. 动画、转场                                                |
-| | |
-| | |
-| | |
+|                                                              |                                                              |
+|                                                              |                                                              |
+|                                                              |                                                              |
 
 
 
