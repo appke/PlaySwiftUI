@@ -44,6 +44,7 @@
 		3B52E4A42445BB9900366CE9 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B52E4A32445BB9900366CE9 /* hikeData.json */; };
 		3B52E4A62445BBD900366CE9 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E4A52445BBD900366CE9 /* GraphCapsule.swift */; };
 		3B52E4A82445BC8700366CE9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E4A72445BC8700366CE9 /* Data.swift */; };
+		3B52E4AB2446C0CB00366CE9 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E4AA2446C0CA00366CE9 /* HikeDetail.swift */; };
 		3B94922B23697D3900C14293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922A23697D3900C14293 /* AppDelegate.swift */; };
 		3B94922D23697D3900C14293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922C23697D3900C14293 /* SceneDelegate.swift */; };
 		3B94922F23697D3900C14293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922E23697D3900C14293 /* ViewController.swift */; };
@@ -93,6 +94,7 @@
 		3B52E4A32445BB9900366CE9 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		3B52E4A52445BBD900366CE9 /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
 		3B52E4A72445BC8700366CE9 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3B52E4AA2446C0CA00366CE9 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		3B94922723697D3900C14293 /* Essentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Essentials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B94922A23697D3900C14293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B94922C23697D3900C14293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 				3B52E4A72445BC8700366CE9 /* Data.swift */,
 				3B52E4A12445BB7B00366CE9 /* Hike.swift */,
 				3B52E49E2445BAF300366CE9 /* HikeGraph.swift */,
+				3B52E4AA2446C0CA00366CE9 /* HikeDetail.swift */,
 				3B52E4A52445BBD900366CE9 /* GraphCapsule.swift */,
 			);
 			path = HikeView;
@@ -375,6 +378,7 @@
 				3B52E4A82445BC8700366CE9 /* Data.swift in Sources */,
 				3B52E4A62445BBD900366CE9 /* GraphCapsule.swift in Sources */,
 				3B52E48124445B6A00366CE9 /* ContentView.swift in Sources */,
+				3B52E4AB2446C0CB00366CE9 /* HikeDetail.swift in Sources */,
 				3B52E4982445B4D300366CE9 /* RotatedBadgeSymbol.swift in Sources */,
 				3B52E4962445B38700366CE9 /* BadgeSymbol.swift in Sources */,
 			);
