@@ -22,9 +22,10 @@ struct GraphCapsule: View {
     }
     
     var animation: Animation {
-        Animation.spring(dampingFraction: 0.5)
-        	.speed(2)
-         	.delay(0.03 * Double(index))
+        // Animation.default
+        Animation.spring(dampingFraction: 0.5) //弹性动画，使用初始速度让条形图跳跃
+        	.speed(2) //加快动画速度，缩短每个小节移动到新位置所需的时间
+         	.delay(0.03 * Double(index)) //每个动画添加延迟
     }
     
     var body: some View {
