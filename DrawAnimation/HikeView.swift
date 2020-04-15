@@ -53,6 +53,7 @@ struct HikeView: View {
     }
 }
 
+// 自定义转场动画
 extension AnyTransition {
     static var moveAndFade: AnyTransition {
         let insertion = AnyTransition.move(edge: .trailing)
