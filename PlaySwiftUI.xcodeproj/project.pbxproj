@@ -45,6 +45,9 @@
 		3B52E4A62445BBD900366CE9 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E4A52445BBD900366CE9 /* GraphCapsule.swift */; };
 		3B52E4A82445BC8700366CE9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E4A72445BC8700366CE9 /* Data.swift */; };
 		3B52E4AB2446C0CB00366CE9 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E4AA2446C0CA00366CE9 /* HikeDetail.swift */; };
+		3B6259982448722800E9C8A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6259972448722800E9C8A5 /* ContentView.swift */; };
+		3B62599A244873D400E9C8A5 /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B625999244873D400E9C8A5 /* ContentView3.swift */; };
+		3B62599E2448742E00E9C8A5 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62599D2448742E00E9C8A5 /* ContentView2.swift */; };
 		3B94922B23697D3900C14293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922A23697D3900C14293 /* AppDelegate.swift */; };
 		3B94922D23697D3900C14293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922C23697D3900C14293 /* SceneDelegate.swift */; };
 		3B94922F23697D3900C14293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922E23697D3900C14293 /* ViewController.swift */; };
@@ -95,6 +98,9 @@
 		3B52E4A52445BBD900366CE9 /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
 		3B52E4A72445BC8700366CE9 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		3B52E4AA2446C0CA00366CE9 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		3B6259972448722800E9C8A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B625999244873D400E9C8A5 /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
+		3B62599D2448742E00E9C8A5 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		3B94922723697D3900C14293 /* Essentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Essentials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B94922A23697D3900C14293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B94922C23697D3900C14293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -247,6 +253,9 @@
 				3B424BEE243F44E100E1AFB9 /* Main.storyboard */,
 				3B94923523697D3A00C14293 /* LaunchScreen.storyboard */,
 				3B94923823697D3A00C14293 /* Info.plist */,
+				3B6259972448722800E9C8A5 /* ContentView.swift */,
+				3B62599D2448742E00E9C8A5 /* ContentView2.swift */,
+				3B625999244873D400E9C8A5 /* ContentView3.swift */,
 			);
 			path = Essentials;
 			sourceTree = "<group>";
@@ -388,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B62599A244873D400E9C8A5 /* ContentView3.swift in Sources */,
 				3B424BCE243F3F3500E1AFB9 /* Landmark.swift in Sources */,
 				3B94922F23697D3900C14293 /* ViewController.swift in Sources */,
 				3B9F2D0C242DFD9400CFBE4A /* CircleImage.swift in Sources */,
@@ -397,6 +407,8 @@
 				3B94922B23697D3900C14293 /* AppDelegate.swift in Sources */,
 				3B424BF2243F76BB00E1AFB9 /* LandmarkRow.swift in Sources */,
 				3B424BF4243F782300E1AFB9 /* Data.swift in Sources */,
+				3B6259982448722800E9C8A5 /* ContentView.swift in Sources */,
+				3B62599E2448742E00E9C8A5 /* ContentView2.swift in Sources */,
 				3B94922D23697D3900C14293 /* SceneDelegate.swift in Sources */,
 				3B52E4342440434A00366CE9 /* LandmarkList.swift in Sources */,
 			);
