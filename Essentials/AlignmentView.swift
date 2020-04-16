@@ -25,7 +25,12 @@ struct HLabel: View {
             .background(backgroundColor)
     }
 }
-
+/// 有效：alignmentGuide与容器alignment参数相同，才有效
+/// 如何对齐：闭包，View与基准线的偏移量
+/// $0 表示闭包参数，ViewDimensions可以取下标得到CGFloat
+/// $0[.leading] = 0 左对齐
+/// 居中对齐，等于View宽度1/2
+/// $0[.trailing] 右对齐，等于View宽度
 struct ExampleViewH: View {
     var body: some View {
         VStack(alignment: .leading) {
@@ -37,25 +42,56 @@ struct ExampleViewH: View {
             
             HLabel(text: "3", backgroundColor: .green, width: 160)
                 .alignmentGuide(.leading, computeValue: { $0[.trailing] })
-            
+            // 左侧超出基准线 60
             HLabel(text: "4", backgroundColor: .blue, width: 180)
                 .alignmentGuide(.leading, computeValue: { _ in 60 })
-            
+            // 参数不一致，alignmentGuide无效
             HLabel(text: "5", backgroundColor: .purple, width: 200)
                 .alignmentGuide(.trailing, computeValue: { _ in 60 })
         }
     }
 }
 
+struct VLabel: View {
+    let text: String
+    let backgroundColor: Color
+    let height: CGFloat
+    
+    var body: some View {
+        Text(text)
+            .font(.largeTitle)
+            .frame(height: height)
+            .padding(.horizontal)
+            .background(backgroundColor)
+    }
+}
+
 struct ExampleViewV: View {
     var body: some View {
-        Text("22")
+        
+        HStack (alignment: .top) {
+            VLabel(text: "0", backgroundColor: .gray, height: 100)
+            VLabel(text: "1", backgroundColor: .red, height: 120)
+                .alignmentGuide(.top, computeValue: { $0[.top] })
+            VLabel(text: "2", backgroundColor: .yellow, height: 140)
+                .alignmentGuide(.top, computeValue: { $0[VerticalAlignment.center] })
+            
+            VLabel(text: "3", backgroundColor: .green, height: 160)
+                .alignmentGuide(.top, computeValue: { $0[.bottom] })
+
+            VLabel(text: "4", backgroundColor: .blue, height: 180)
+                .alignmentGuide(.top, computeValue: { _ in 60 })
+            
+            VLabel(text: "5", backgroundColor: .purple, height: 200)
+                .alignmentGuide(.bottom, computeValue: { _ in 60 })
+        }
     }
 }
 
 
 struct AlignmentView_Previews: PreviewProvider {
     static var previews: some View {
-        ExampleViewH()
+        // ExampleViewH()
+        ExampleViewV()
     }
 }
