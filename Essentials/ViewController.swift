@@ -37,7 +37,6 @@ struct SF_ContentView : View {
             
             Image(systemName: name)
                 .font(Font.system(size: 60, weight: .thin))
-
         }
     }
 }
@@ -105,7 +104,7 @@ struct ShadowView : View {
 struct ViewController_Previews: PreviewProvider {
     static var previews: some View {
         //Text("Hello, World!333").font(Font.system(size: 35))
-        SF_ContentView()
-//        ShadowView()
+//        SF_ContentView()
+        ShadowView()
     }
 }

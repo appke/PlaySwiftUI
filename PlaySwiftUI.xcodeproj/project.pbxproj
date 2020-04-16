@@ -48,6 +48,7 @@
 		3B6259982448722800E9C8A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6259972448722800E9C8A5 /* ContentView.swift */; };
 		3B62599A244873D400E9C8A5 /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B625999244873D400E9C8A5 /* ContentView3.swift */; };
 		3B62599E2448742E00E9C8A5 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62599D2448742E00E9C8A5 /* ContentView2.swift */; };
+		3B6259A024487C5A00E9C8A5 /* AlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62599F24487C5900E9C8A5 /* AlignmentView.swift */; };
 		3B94922B23697D3900C14293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922A23697D3900C14293 /* AppDelegate.swift */; };
 		3B94922D23697D3900C14293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922C23697D3900C14293 /* SceneDelegate.swift */; };
 		3B94922F23697D3900C14293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94922E23697D3900C14293 /* ViewController.swift */; };
@@ -101,6 +102,7 @@
 		3B6259972448722800E9C8A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B625999244873D400E9C8A5 /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 		3B62599D2448742E00E9C8A5 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		3B62599F24487C5900E9C8A5 /* AlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentView.swift; sourceTree = "<group>"; };
 		3B94922723697D3900C14293 /* Essentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Essentials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B94922A23697D3900C14293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B94922C23697D3900C14293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -241,7 +243,6 @@
 			isa = PBXGroup;
 			children = (
 				3B424BC9243F3EB300E1AFB9 /* Models */,
-				3B94922E23697D3900C14293 /* ViewController.swift */,
 				3B94922A23697D3900C14293 /* AppDelegate.swift */,
 				3B94922C23697D3900C14293 /* SceneDelegate.swift */,
 				3B424BBF243DA45100E1AFB9 /* LandmarkDetail.swift */,
@@ -253,7 +254,9 @@
 				3B424BEE243F44E100E1AFB9 /* Main.storyboard */,
 				3B94923523697D3A00C14293 /* LaunchScreen.storyboard */,
 				3B94923823697D3A00C14293 /* Info.plist */,
+				3B94922E23697D3900C14293 /* ViewController.swift */,
 				3B6259972448722800E9C8A5 /* ContentView.swift */,
+				3B62599F24487C5900E9C8A5 /* AlignmentView.swift */,
 				3B62599D2448742E00E9C8A5 /* ContentView2.swift */,
 				3B625999244873D400E9C8A5 /* ContentView3.swift */,
 			);
@@ -401,6 +404,7 @@
 				3B424BCE243F3F3500E1AFB9 /* Landmark.swift in Sources */,
 				3B94922F23697D3900C14293 /* ViewController.swift in Sources */,
 				3B9F2D0C242DFD9400CFBE4A /* CircleImage.swift in Sources */,
+				3B6259A024487C5A00E9C8A5 /* AlignmentView.swift in Sources */,
 				3B424BC0243DA45100E1AFB9 /* LandmarkDetail.swift in Sources */,
 				3B9F2D0E242DFFAA00CFBE4A /* MapView.swift in Sources */,
 				3B52E4512444458800366CE9 /* UserData.swift in Sources */,
