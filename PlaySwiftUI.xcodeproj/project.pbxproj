@@ -54,6 +54,7 @@
 		3BA6D5C8244996AC0027EF4B /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E4A12445BB7B00366CE9 /* Hike.swift */; };
 		3BA6D5C9244996BD0027EF4B /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E4912445A96A00366CE9 /* Badge.swift */; };
 		3BA6D5CA244996C10027EF4B /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E49B2445B9F400366CE9 /* HikeView.swift */; };
+		3BA6D5CD2449A5790027EF4B /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA6D5CC2449A5790027EF4B /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,7 @@
 		3B94923823697D3A00C14293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B9F2D0B242DFD9400CFBE4A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		3B9F2D0D242DFFAA00CFBE4A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3BA6D5CC2449A5790027EF4B /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +247,7 @@
 				3B424BBF243DA45100E1AFB9 /* LandmarkDetail.swift */,
 				3B424BF1243F76BA00E1AFB9 /* LandmarkRow.swift */,
 				3B52E4332440434A00366CE9 /* LandmarkList.swift */,
+				3BA6D5CC2449A5790027EF4B /* CategoryHome.swift */,
 				3B424BCF243F432600E1AFB9 /* Supporting Views */,
 				3B424BCA243F3EC800E1AFB9 /* Resources */,
 				3B94923323697D3A00C14293 /* Assets.xcassets */,
@@ -400,6 +403,7 @@
 				3B9F2D0C242DFD9400CFBE4A /* CircleImage.swift in Sources */,
 				3BA6D5C8244996AC0027EF4B /* Hike.swift in Sources */,
 				3B424BC0243DA45100E1AFB9 /* LandmarkDetail.swift in Sources */,
+				3BA6D5CD2449A5790027EF4B /* CategoryHome.swift in Sources */,
 				3B9F2D0E242DFFAA00CFBE4A /* MapView.swift in Sources */,
 				3B52E4512444458800366CE9 /* UserData.swift in Sources */,
 				3B94922B23697D3900C14293 /* AppDelegate.swift in Sources */,

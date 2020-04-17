@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3B94922623697D3900C14293"
-               BuildableName = "Essentials.app"
+               BuildableName = "Landmarks.app"
                BlueprintName = "Landmarks"
                ReferencedContainer = "container:PlaySwiftUI.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B94922623697D3900C14293"
-            BuildableName = "Essentials.app"
+            BuildableName = "Landmarks.app"
             BlueprintName = "Landmarks"
             ReferencedContainer = "container:PlaySwiftUI.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B94922623697D3900C14293"
-            BuildableName = "Essentials.app"
+            BuildableName = "Landmarks.app"
             BlueprintName = "Landmarks"
             ReferencedContainer = "container:PlaySwiftUI.xcodeproj">
          </BuildableReference>
