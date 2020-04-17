@@ -42,7 +42,7 @@ struct ContentView3: View {
             .font(.title)
             
             RoundedRectangle(cornerRadius: 2)
-                .frame(width: 20, height: 8)
+                .frame(width: 20, height: 5)
                 .foregroundColor(.orange)
                 .alignCenterHorizonally(true)
                 //.alignmentGuide(.customCenter) { $0[HorizontalAlignment.center] }

@@ -25,7 +25,7 @@ extension HorizontalAlignment {
 // 2.Text对齐
 struct ContentView2 : View {
     var body: some View {
-        VStack(alignment: .customLeading) { // 基准线
+        VStack(alignment: .customLeading) { //基准线
             HStack {
                 Text("Username").titleStyle()
                 Text("Jackay").contentStyle()

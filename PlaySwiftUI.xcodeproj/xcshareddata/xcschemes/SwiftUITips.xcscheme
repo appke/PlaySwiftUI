@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3B52E47924445B6A00366CE9"
                BuildableName = "DrawAnimation.app"
-               BlueprintName = "DrawAnimation"
+               BlueprintName = "SwiftUITips"
                ReferencedContainer = "container:PlaySwiftUI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +46,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B52E47924445B6A00366CE9"
             BuildableName = "DrawAnimation.app"
-            BlueprintName = "DrawAnimation"
+            BlueprintName = "SwiftUITips"
             ReferencedContainer = "container:PlaySwiftUI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -63,7 +63,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B52E47924445B6A00366CE9"
             BuildableName = "DrawAnimation.app"
-            BlueprintName = "DrawAnimation"
+            BlueprintName = "SwiftUITips"
             ReferencedContainer = "container:PlaySwiftUI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
