@@ -59,6 +59,7 @@
 		3BA6D5ED244AFF420027EF4B /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E4932445AAEA00366CE9 /* HexagonParameters.swift */; };
 		3BA6D5EE244AFF4F0027EF4B /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E49B2445B9F400366CE9 /* HikeView.swift */; };
 		3BA6D5F0244AFFE00027EF4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA6D5EF244AFFE00027EF4B /* ContentView.swift */; };
+		3BC3B13F244B0F8F00B80545 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B52E4A32445BB9900366CE9 /* hikeData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -379,6 +380,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC3B13F244B0F8F00B80545 /* hikeData.json in Resources */,
 				3B52E44D24443C6300366CE9 /* lakemcdonald.jpg in Resources */,
 				3B52E44C24443C6300366CE9 /* silversalmoncreek.jpg in Resources */,
 				3B94923723697D3A00C14293 /* LaunchScreen.storyboard in Resources */,
