@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  PlaySwiftUI
+//  Landmarks
 //
 //  Created by MGBook on 2019/10/30.
 //  Copyright © 2019 MGBook. All rights reserved.
@@ -15,7 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        let contentView = LandmarkList().environmentObject(UserData())
+        let contentView = CategoryHome().environmentObject(UserData())
         
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)

@@ -9,10 +9,11 @@
 import SwiftUI
 
 struct ProfileHost: View {
-    var profile = Profile.default
+    @State var profile = Profile.default
     
     var body: some View {
-        Text("Profile for: \(profile.username)")
+        // Text("Profile for: \(profile.username)")
+        ProfileSummary(profile: self.profile)
     }
 }
 

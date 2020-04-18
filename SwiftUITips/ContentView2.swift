@@ -1,6 +1,6 @@
 //
 //  ContentView2.swift
-//  Essentials
+//  SwiftUITips
 //
 //  Created by MGBook on 2020/4/16.
 //  Copyright © 2020 MGBook. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  UserData.swift
-//  PlaySwiftUI
+//  Landmarks
 //
 //  Created by MGBook on 2020/4/13.
 //  Copyright © 2020 MGBook. All rights reserved.

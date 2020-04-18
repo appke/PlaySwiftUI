@@ -1,6 +1,6 @@
 //
 //  BadgeSymbol.swift
-//  DrawAnimation
+//  Landmarks
 //
 //  Created by MGBook on 2020/4/14.
 //  Copyright © 2020 MGBook. All rights reserved.
