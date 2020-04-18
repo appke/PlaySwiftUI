@@ -1,9 +1,3 @@
-
-
-
-
-
-
 ### [译] SwiftUI 官方教程
 
 | 版本                                                         | 内容简介                                                     |
@@ -14,8 +8,8 @@
 | [[译\] SwiftUI 官方教程 （四） - 简书](https://www.jianshu.com/p/5a9d1a539829) | 1. 收藏喜欢的内容<br>2. 数据监听器<br>3. 点击收藏、点击操作实时预览 |
 | [[译\] SwiftUI 官方教程 （五） - 简书](https://www.jianshu.com/p/6b5f8ea2619e) | 1. 了解SwiftUI强大绘画框架                                   |
 | [[译\] SwiftUI 官方教程 （六） - 简书](https://www.jianshu.com/p/769b52b051cc) | 1. 设置简单动画<br>2. 自定义转场动画                         |
-| [[译\] SwiftUI 官方教程 （七） - 简书](https://www.jianshu.com/p/ad59cb9f2db8) |                                                              |
-|                                                              |                                                              |
+| [[译\] SwiftUI 官方教程 （七） - 简书](https://www.jianshu.com/p/ad59cb9f2db8) | 1.                                                           |
+| [[译\] SwiftUI 官方教程 （八） - 简书](https://www.jianshu.com/p/0339d002ec0e) |                                                              |
 |                                                              |                                                              |
 
 

@@ -27,7 +27,7 @@ struct CategoryHome: View {
     @EnvironmentObject var userData: UserData
     
     var profileButton: some View {
-        Button(action: {self.showingProfile.toggle() }) {
+        Button(action: { self.showingProfile.toggle() }) {
             Image(systemName: "person.crop.circle")
                 .imageScale(.large)
                 .accessibility(label: Text("User Profile"))
@@ -51,9 +51,17 @@ struct CategoryHome: View {
                     CategoryRow(categoryName: key, items: self.categories[key]!)
                 }
                 .listRowInsets(EdgeInsets()) //内容展开到显示边缘
+                
+                // 链接到列表
+                NavigationLink(destination: LandmarkList().environmentObject(UserData())) {
+                    Text("See All")
+                }
             }
             .navigationBarTitle(Text("Featured"))
             .navigationBarItems(trailing: profileButton)
+            .sheet(isPresented: $showingProfile) {
+                ProfileHost()
+            }
         }
         
     }
