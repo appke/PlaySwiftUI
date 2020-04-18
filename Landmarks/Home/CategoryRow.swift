@@ -37,9 +37,9 @@ struct CategoryItem: View {
     let landmark: Landmark
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             landmark.image
-                .resizable() //改变图片内容 fit全
+                .resizable() //改变图片内容 fit全景
                 .frame(width: 155, height: 155)
                 .cornerRadius(5)
             

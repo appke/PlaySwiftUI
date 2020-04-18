@@ -19,17 +19,39 @@ struct CategoryHome: View {
         )
     }
     
+    var featured: [Landmark] {
+        landmarkData.filter { $0.isFeatured }
+    }
+    
     var body: some View {
         NavigationView {
             List {
+                // 缩放并裁剪后的地标特征图片
+                // 被标记了 isFeatured 的地标
+                FeaturedLandmarks(landmarks: featured)
+                    .scaledToFill() //全部填充
+                    .frame(height: 200)
+                    .clipped()
+                    .listRowInsets(EdgeInsets()) //设置zero ,内容展开到显示边缘
+
                 ForEach(categories.keys.sorted(), id: \.self) { key in
                     //Text(key)
                     CategoryRow(categoryName: key, items: self.categories[key]!)
                 }
+                .listRowInsets(EdgeInsets()) //内容展开到显示边缘
             }
             .navigationBarTitle(Text("Featured"))
         }
         
+    }
+}
+
+struct FeaturedLandmarks :View {
+    let landmarks: [Landmark]
+    
+    var body: some View {
+        landmarks[0].image
+            .resizable()
     }
 }
 
