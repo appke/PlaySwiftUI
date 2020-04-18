@@ -19,7 +19,8 @@ struct LandmarkList: View {
 //            LandmarkRow(landmark: landmarkData[3])
 //        }
         
-        NavigationView {
+        // 移除包装的 NavigationView
+//        NavigationView {
             List {
                 Toggle(isOn: $userData.showFavoritesonly) {
                     Text("Show Favoirites Only")
@@ -37,7 +38,7 @@ struct LandmarkList: View {
                 }
             }
             .navigationBarTitle(Text("Landmarks"))
-        }
+//        }
     }
 }
 

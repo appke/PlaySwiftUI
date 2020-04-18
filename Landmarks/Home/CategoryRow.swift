@@ -20,11 +20,14 @@ struct CategoryRow: View {
                 .padding(.leading, 15)
                 .padding(.top, 5)
             
+            
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(self.items) { item in
                         // Text(item.name)
-                        CategoryItem(landmark: item)
+                        NavigationLink(destination: LandmarkDetail(landmark: item)) { 
+                             CategoryItem(landmark: item)
+                        }
                     }
                 }
             }
@@ -39,11 +42,13 @@ struct CategoryItem: View {
     var body: some View {
         VStack(alignment: .leading) {
             landmark.image
-                .resizable() //改变图片内容 fit全景
+                .renderingMode(.original) //只能写在第一行？
+                .resizable() //让图片自动适应 fit全景
                 .frame(width: 155, height: 155)
                 .cornerRadius(5)
             
             Text(landmark.name)
+                .foregroundColor(.primary)
                 .font(.caption)
         }
         .padding(.leading, 15)
