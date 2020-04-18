@@ -12,6 +12,8 @@ struct CategoryRow: View {
     var categoryName: String
     var items: [Landmark]
     
+    @EnvironmentObject var userData: UserData
+    
     var body: some View {
         // 显示分类中的地标
         VStack(alignment: .leading) {
@@ -25,7 +27,7 @@ struct CategoryRow: View {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(self.items) { item in
                         // Text(item.name)
-                        NavigationLink(destination: LandmarkDetail(landmark: item).environmentObject(UserData())) {
+                        NavigationLink(destination: LandmarkDetail(landmark: item).environmentObject(self.userData)) {
                              CategoryItem(landmark: item)
                         }
                     }

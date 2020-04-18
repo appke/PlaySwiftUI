@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ProfileSummary: View {
     var profile: Profile
+    
     static let goalFormat: DateFormatter = {
         let formatter = DateFormatter()
         formatter.dateFormat = "MMM d, yyyy"

@@ -48,19 +48,19 @@ struct CategoryHome: View {
 
                 ForEach(categories.keys.sorted(), id: \.self) { key in
                     //Text(key)
-                    CategoryRow(categoryName: key, items: self.categories[key]!)
+                    CategoryRow(categoryName: key, items: self.categories[key]!).environmentObject(self.userData)
                 }
                 .listRowInsets(EdgeInsets()) //内容展开到显示边缘
                 
                 // 链接到列表
-                NavigationLink(destination: LandmarkList().environmentObject(UserData())) {
+                NavigationLink(destination: LandmarkList().environmentObject(self.userData)) {
                     Text("See All")
                 }
             }
             .navigationBarTitle(Text("Featured"))
             .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingProfile) {
-                ProfileHost()
+                ProfileHost().environmentObject(self.userData)
             }
         }
         
@@ -78,6 +78,6 @@ struct FeaturedLandmarks :View {
 
 struct CategoryHome_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryHome()
+        CategoryHome().environmentObject(UserData())
     }
 }
