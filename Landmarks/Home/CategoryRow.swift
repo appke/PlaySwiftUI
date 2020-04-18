@@ -25,7 +25,7 @@ struct CategoryRow: View {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(self.items) { item in
                         // Text(item.name)
-                        NavigationLink(destination: LandmarkDetail(landmark: item)) { 
+                        NavigationLink(destination: LandmarkDetail(landmark: item).environmentObject(UserData())) {
                              CategoryItem(landmark: item)
                         }
                     }
