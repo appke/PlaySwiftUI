@@ -45,9 +45,3 @@ struct Coordinates: Hashable, Codable {
     var latitude: Double //经度
     var longitude: Double //纬度
 }
-
-struct Landmark_Previews: PreviewProvider {
-    static var previews: some View {
-        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
-    }
-}
