@@ -21,14 +21,32 @@ struct CategoryRow: View {
                 .padding(.top, 5)
             
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(alignment: .top, spacing: 50) {
+                HStack(alignment: .top, spacing: 0) {
                     ForEach(self.items) { item in
-                        Text(item.name)
+                        // Text(item.name)
+                        CategoryItem(landmark: item)
                     }
                 }
             }
             .frame(height: 185)
         }
+    }
+}
+
+struct CategoryItem: View {
+    let landmark: Landmark
+    
+    var body: some View {
+        VStack {
+            landmark.image
+                .resizable() //改变图片内容 fit全
+                .frame(width: 155, height: 155)
+                .cornerRadius(5)
+            
+            Text(landmark.name)
+                .font(.caption)
+        }
+        .padding(.leading, 15)
     }
 }
 
