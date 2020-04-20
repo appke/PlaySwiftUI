@@ -44,7 +44,7 @@ struct ProfileSummary: View {
                     }
                 }
             }
-            .frame(height: 140)
+            .frame(height: 160)
             
             VStack(alignment: .leading) {
                 Text("Recent Hikes")
