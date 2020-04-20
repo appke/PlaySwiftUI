@@ -40,11 +40,14 @@ struct CategoryHome: View {
             List {
                 // 缩放并裁剪后的地标特征图片
                 // 被标记了 isFeatured 的地标
-                FeaturedLandmarks(landmarks: featured)
-                    .scaledToFill() //全部填充
-                    .frame(height: 200)
-                    .clipped()
-                    .listRowInsets(EdgeInsets()) //设置zero ,内容展开到显示边缘
+//                FeaturedLandmarks(landmarks: featured)
+//                    .scaledToFill() //全部填充
+//                    .frame(height: 200)
+//                    .clipped()
+//                    .listRowInsets(EdgeInsets()) //设置zero ,内容展开到显示边缘
+                PageView(features.map{ FeatureCard(landmark: $0) })
+                    .aspectRatio(3/2, contentMode: .fit)
+                    .listRowInsets(EdgeInsets())
 
                 ForEach(categories.keys.sorted(), id: \.self) { key in
                     //Text(key)

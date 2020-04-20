@@ -10,7 +10,7 @@ import SwiftUI
 
 struct PageView<Page: View>: View {
     var viewControllers: [UIHostingController<Page>]
-    @State var currentPage = 1
+    @State var currentPage = 0
     
     // 泛型初始化方法接收一个 view 数组，并将每个 view 嵌套在 UIHostingController
     init(_ views: [Page]) {
@@ -18,9 +18,17 @@ struct PageView<Page: View>: View {
     }
     
     var body: some View {
-        VStack {
+//        VStack {
+//            PageViewController(controllers: viewControllers, currentPage: $currentPage)
+//            Text("Current Page: \(currentPage)") //临时显示页码
+//        }
+        
+        // 右下布局
+        ZStack(alignment: .bottomTrailing) {
             PageViewController(controllers: viewControllers, currentPage: $currentPage)
-            Text("Current Page: \(currentPage)") //显示页码
+            PageControl(numberOfPages: viewControllers.count, currentPage: $currentPage)
+                .padding(.leading)
+                .padding(.trailing)
         }
     }
 }
