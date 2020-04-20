@@ -22,7 +22,7 @@ struct ProfileHost: View {
         VStack(alignment: .leading, spacing: 20) {
             HStack {
                 if self.mode?.wrappedValue == .active {
-                    Button("Cancel") {
+                    Button("Cancel") { //取消编辑
                         self.draftProfile = self.userData.prodfile
                         self.mode?.animation().wrappedValue = .inactive
                     }
@@ -42,11 +42,10 @@ struct ProfileHost: View {
                     .onAppear {
                         self.draftProfile = self.userData.prodfile
                     }
-                    .onDisappear {
+                    .onDisappear { //点击Cancel按钮时，清空编辑内容
                         self.userData.prodfile = self.draftProfile
                     }
             }
-            
         }
         .padding()
     }
