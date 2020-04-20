@@ -1,6 +1,6 @@
 ## [译] SwiftUI 官方教程
 
-- [appke/PlaySwiftUI: SwiftUI官方文档，开发杂记](https://github.com/appke/PlaySwiftUI)
+- 代码仓库：[appke/PlaySwiftUI: SwiftUI官方文档，开发杂记](https://github.com/appke/PlaySwiftUI)
 
 | 版本                                                         | 内容简介                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -12,13 +12,14 @@
 | [[译\] SwiftUI 官方教程 （六） - 简书](https://www.jianshu.com/p/769b52b051cc) | 1. 设置简单动画<br>2. 自定义转场动画                         |
 | [[译\] SwiftUI 官方教程 （七） - 简书](https://www.jianshu.com/p/ad59cb9f2db8) | 1. 分类预览，水平滚动<br>2. 多个控制器之间跳转<br>3. 导航试图渲染 |
 | [[译\] SwiftUI 官方教程 （八） - 简书](https://www.jianshu.com/p/0339d002ec0e) | 1. 创建个人资料来展示个性 <br>2. 编辑模式，EditButton，草稿副本 <br>3. 分割线，选择器和样式，日期选择器 |
-| [[译\] SwiftUI 官方教程 （九） - 简书](https://www.jianshu.com/p/441930138de2) |                                                              |
+| [[译\] SwiftUI 官方教程 （九） - 简书](https://www.jianshu.com/p/441930138de2) | 1. UIKit和SwiftUI无缝协作<br>2. view 和 controllers 协同工作 <br>3. 图片轮播 |
+| [[译\] SwiftUI 官方教程 （十一） - 简书](https://www.jianshu.com/p/55676dd36ade) | 应用迁移到mac上                                              |
+
+![](screenshot.gif)
 
 
 
-
-
-
+<br>
 
 #### SwiftUI 教程资料
 

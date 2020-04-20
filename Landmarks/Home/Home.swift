@@ -66,7 +66,6 @@ struct CategoryHome: View {
                 ProfileHost().environmentObject(self.userData)
             }
         }
-        
     }
 }
 
