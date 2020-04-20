@@ -10,6 +10,14 @@ import SwiftUI
 
 struct ProfileEditor: View {
     @Binding var profile: Profile
+    
+    var dateRange: ClosedRange<Date> {
+        let min = Calendar.current.date(byAdding: .year, value: -1, to: profile.goalDate)!
+        let max = Calendar.current.date(byAdding: .year, value: 1, to: profile.goalDate)!
+        return min...max
+    }
+    
+    
     var body: some View {
         List {
             HStack {
@@ -17,6 +25,36 @@ struct ProfileEditor: View {
                 Divider()
                 TextField("Username", text: $profile.username)
             }
+            
+            Toggle(isOn: $profile.prefersNotifications) {
+                Text("Enable Notifications")
+            }
+            
+            // 根据地标,选择季节
+            VStack(alignment: .leading, spacing: 20) {
+                Text("Seasonal Photo").bold()
+                
+                // selection 选中类型
+                Picker("Seasonal Photo", selection: $profile.seasonalPhoto) {
+                    ForEach(Profile.Season.allCases, id: \.self) { season in
+                        Text(season.rawValue).tag(season)
+                    }
+                }
+                .pickerStyle(SegmentedPickerStyle())
+            }
+            .padding(.top)
+            
+            // 到达地标日期
+            VStack (alignment: .leading, spacing: 20) {
+                Text("Goal Date").bold()
+                
+                DatePicker(
+                    "Goal Date",
+                    selection: $profile.goalDate,
+                    in: dateRange,
+                    displayedComponents: .date)
+            }
+            .padding(.top)
         }
     }
 }
