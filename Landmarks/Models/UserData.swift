@@ -11,4 +11,5 @@ import SwiftUI
 final class UserData: ObservableObject {
     @Published var showFavoritesonly = false
     @Published var landmarks = landmarkData
+    @Published var prodfile = Profile.default
 }
